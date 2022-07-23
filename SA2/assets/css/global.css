@@ -1,0 +1,11 @@
+:root {
+  --bg-home: #1B262C;
+  --text-color: #e1e1e1;
+}
+
+.e-content {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: var(--bg-home);
+  color: var(--text-color);
+}
