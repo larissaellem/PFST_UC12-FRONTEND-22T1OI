@@ -10,6 +10,8 @@ function scrollElement(element, direction) {
 function login(form) {
   const email = form.querySelector("input[type=email]").value;
   const password = form.querySelector("input[type=password]").value;
+  if(!email || !password) return alert("Preencha todos os campos para fazer login");
+
   const username = email.split("@")[0];
 
   localStorage.setItem("user", JSON.stringify({ email, password, username }));
