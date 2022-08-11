@@ -1,0 +1,8 @@
+
+*,
+html {
+  --text-color: #f1f1f1;
+  --orange-01: #e76425;
+  --orange-01-50: rgba(231, 98, 37, 0.8);
+  --bg-home: #1b262c;
+}
